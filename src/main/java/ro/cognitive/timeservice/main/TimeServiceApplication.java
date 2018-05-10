@@ -1,4 +1,4 @@
-package ro.cognitive.timeservice;
+package ro.cognitive.timeservice.main;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;

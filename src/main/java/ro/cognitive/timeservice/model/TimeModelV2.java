@@ -17,7 +17,7 @@ public class TimeModelV2 {
     }
 
     public String getTheTime() {
-        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm");
+        DateTimeFormatter dtf = DateTimeFormatter.ofPattern("dd-MM-yyyy HH:mm:ss");
         LocalDateTime now = LocalDateTime.now();
         this.theTime = dtf.format(now);
         return theTime;

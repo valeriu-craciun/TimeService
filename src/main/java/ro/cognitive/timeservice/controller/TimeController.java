@@ -12,11 +12,11 @@ import java.util.concurrent.atomic.AtomicLong;
 public class TimeController {
     private final AtomicLong counter = new AtomicLong();
 
-/*    @RequestMapping("/v2/getTime")
+    @RequestMapping("/v2/getTime")
     public TimeModelV2 getTime2() {
         return new TimeModelV2(counter.incrementAndGet());
     }
-*/
+
     @RequestMapping("/v1/getTime")
     public TimeModel getTime1() {
         return new TimeModel(counter.incrementAndGet());
